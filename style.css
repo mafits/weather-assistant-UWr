@@ -1,0 +1,44 @@
+body {
+    font-family: Helvetica, sans-serif;
+    background-color: #f4f4f4;
+    color: #211816;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+h1 {
+    font-size: 2.5rem;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+h1 img {
+    width: 200px;
+    height: 200px;
+}
+
+h2 {
+    font-size: 1.8rem;
+    margin-top: 30px;
+    margin-bottom: 25px;
+    margin-left: 3rem;
+    color: #5B47EF;
+}
+
+h3 {
+    font-size: 1.3rem;
+    font-weight: normal;
+    color: #666;
+    margin-left: 3rem;
+    margin-bottom: 0;
+}
+
+hr {
+    width: 80%;
+    border: 1px solid #ccc;
+    margin: 20px 0;
+}
