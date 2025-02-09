@@ -92,7 +92,7 @@ export async function handler(event) {
         if(property == "overall description"){
             content = `The current weather in ${city} is ${propertyValue}.`;
         }
-        else if(property == "feels-like temperature"){
+        else if(property == "feels like temperature"){
             content = `The current temperature in ${city} feels like ${propertyValue}°C.`;
         }
         else if(property == "humidity"){
